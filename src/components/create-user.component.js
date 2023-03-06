@@ -28,7 +28,7 @@ onSubmit(e) {
   
   console.log(user);
 
-  axios.post('http://localhost:5000/users/add', user)
+  axios.post('https://exercisetrackerbackend-4jt5.onrender.com/users/add', user)
     .then(res => console.log(res.data));
   
   this.setState({
